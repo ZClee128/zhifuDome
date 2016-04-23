@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04480A331CCB036900174391 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04480A321CCB036900174391 /* main.m */; };
+		04480A361CCB036900174391 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04480A351CCB036900174391 /* AppDelegate.m */; };
+		04480A391CCB036900174391 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04480A381CCB036900174391 /* ViewController.m */; };
+		04480A3C1CCB036900174391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04480A3A1CCB036900174391 /* Main.storyboard */; };
+		04480A3E1CCB036900174391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04480A3D1CCB036900174391 /* Assets.xcassets */; };
+		04480A411CCB036900174391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04480A3F1CCB036900174391 /* LaunchScreen.storyboard */; };
+		04480A4C1CCB036900174391 /* zhifuDomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04480A4B1CCB036900174391 /* zhifuDomeTests.m */; };
+		04480A571CCB036A00174391 /* zhifuDomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04480A561CCB036A00174391 /* zhifuDomeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04480A481CCB036900174391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04480A261CCB036900174391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04480A2D1CCB036900174391;
+			remoteInfo = zhifuDome;
+		};
+		04480A531CCB036A00174391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04480A261CCB036900174391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04480A2D1CCB036900174391;
+			remoteInfo = zhifuDome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04480A2E1CCB036900174391 /* zhifuDome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhifuDome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04480A321CCB036900174391 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04480A341CCB036900174391 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04480A351CCB036900174391 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04480A371CCB036900174391 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04480A381CCB036900174391 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04480A3B1CCB036900174391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04480A3D1CCB036900174391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04480A401CCB036900174391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04480A421CCB036900174391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04480A471CCB036900174391 /* zhifuDomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhifuDomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04480A4B1CCB036900174391 /* zhifuDomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zhifuDomeTests.m; sourceTree = "<group>"; };
+		04480A4D1CCB036900174391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04480A521CCB036A00174391 /* zhifuDomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhifuDomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04480A561CCB036A00174391 /* zhifuDomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zhifuDomeUITests.m; sourceTree = "<group>"; };
+		04480A581CCB036A00174391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04480A2B1CCB036900174391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04480A441CCB036900174391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04480A4F1CCB036900174391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04480A251CCB036900174391 = {
+			isa = PBXGroup;
+			children = (
+				04480A301CCB036900174391 /* zhifuDome */,
+				04480A4A1CCB036900174391 /* zhifuDomeTests */,
+				04480A551CCB036A00174391 /* zhifuDomeUITests */,
+				04480A2F1CCB036900174391 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04480A2F1CCB036900174391 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04480A2E1CCB036900174391 /* zhifuDome.app */,
+				04480A471CCB036900174391 /* zhifuDomeTests.xctest */,
+				04480A521CCB036A00174391 /* zhifuDomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04480A301CCB036900174391 /* zhifuDome */ = {
+			isa = PBXGroup;
+			children = (
+				04480A341CCB036900174391 /* AppDelegate.h */,
+				04480A351CCB036900174391 /* AppDelegate.m */,
+				04480A371CCB036900174391 /* ViewController.h */,
+				04480A381CCB036900174391 /* ViewController.m */,
+				04480A3A1CCB036900174391 /* Main.storyboard */,
+				04480A3D1CCB036900174391 /* Assets.xcassets */,
+				04480A3F1CCB036900174391 /* LaunchScreen.storyboard */,
+				04480A421CCB036900174391 /* Info.plist */,
+				04480A311CCB036900174391 /* Supporting Files */,
+			);
+			path = zhifuDome;
+			sourceTree = "<group>";
+		};
+		04480A311CCB036900174391 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04480A321CCB036900174391 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04480A4A1CCB036900174391 /* zhifuDomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				04480A4B1CCB036900174391 /* zhifuDomeTests.m */,
+				04480A4D1CCB036900174391 /* Info.plist */,
+			);
+			path = zhifuDomeTests;
+			sourceTree = "<group>";
+		};
+		04480A551CCB036A00174391 /* zhifuDomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04480A561CCB036A00174391 /* zhifuDomeUITests.m */,
+				04480A581CCB036A00174391 /* Info.plist */,
+			);
+			path = zhifuDomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04480A2D1CCB036900174391 /* zhifuDome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04480A5B1CCB036A00174391 /* Build configuration list for PBXNativeTarget "zhifuDome" */;
+			buildPhases = (
+				04480A2A1CCB036900174391 /* Sources */,
+				04480A2B1CCB036900174391 /* Frameworks */,
+				04480A2C1CCB036900174391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zhifuDome;
+			productName = zhifuDome;
+			productReference = 04480A2E1CCB036900174391 /* zhifuDome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04480A461CCB036900174391 /* zhifuDomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04480A5E1CCB036A00174391 /* Build configuration list for PBXNativeTarget "zhifuDomeTests" */;
+			buildPhases = (
+				04480A431CCB036900174391 /* Sources */,
+				04480A441CCB036900174391 /* Frameworks */,
+				04480A451CCB036900174391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04480A491CCB036900174391 /* PBXTargetDependency */,
+			);
+			name = zhifuDomeTests;
+			productName = zhifuDomeTests;
+			productReference = 04480A471CCB036900174391 /* zhifuDomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04480A511CCB036900174391 /* zhifuDomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04480A611CCB036A00174391 /* Build configuration list for PBXNativeTarget "zhifuDomeUITests" */;
+			buildPhases = (
+				04480A4E1CCB036900174391 /* Sources */,
+				04480A4F1CCB036900174391 /* Frameworks */,
+				04480A501CCB036900174391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04480A541CCB036A00174391 /* PBXTargetDependency */,
+			);
+			name = zhifuDomeUITests;
+			productName = zhifuDomeUITests;
+			productReference = 04480A521CCB036A00174391 /* zhifuDomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04480A261CCB036900174391 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lzc;
+				TargetAttributes = {
+					04480A2D1CCB036900174391 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VB37Y62JDE;
+					};
+					04480A461CCB036900174391 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VB37Y62JDE;
+						TestTargetID = 04480A2D1CCB036900174391;
+					};
+					04480A511CCB036900174391 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VB37Y62JDE;
+						TestTargetID = 04480A2D1CCB036900174391;
+					};
+				};
+			};
+			buildConfigurationList = 04480A291CCB036900174391 /* Build configuration list for PBXProject "zhifuDome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04480A251CCB036900174391;
+			productRefGroup = 04480A2F1CCB036900174391 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04480A2D1CCB036900174391 /* zhifuDome */,
+				04480A461CCB036900174391 /* zhifuDomeTests */,
+				04480A511CCB036900174391 /* zhifuDomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04480A2C1CCB036900174391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04480A411CCB036900174391 /* LaunchScreen.storyboard in Resources */,
+				04480A3E1CCB036900174391 /* Assets.xcassets in Resources */,
+				04480A3C1CCB036900174391 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04480A451CCB036900174391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04480A501CCB036900174391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04480A2A1CCB036900174391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04480A391CCB036900174391 /* ViewController.m in Sources */,
+				04480A361CCB036900174391 /* AppDelegate.m in Sources */,
+				04480A331CCB036900174391 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04480A431CCB036900174391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04480A4C1CCB036900174391 /* zhifuDomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04480A4E1CCB036900174391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04480A571CCB036A00174391 /* zhifuDomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04480A491CCB036900174391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04480A2D1CCB036900174391 /* zhifuDome */;
+			targetProxy = 04480A481CCB036900174391 /* PBXContainerItemProxy */;
+		};
+		04480A541CCB036A00174391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04480A2D1CCB036900174391 /* zhifuDome */;
+			targetProxy = 04480A531CCB036A00174391 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04480A3A1CCB036900174391 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04480A3B1CCB036900174391 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04480A3F1CCB036900174391 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04480A401CCB036900174391 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04480A591CCB036A00174391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04480A5A1CCB036A00174391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04480A5C1CCB036A00174391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = zhifuDome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzc.zhifuDome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04480A5D1CCB036A00174391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = zhifuDome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzc.zhifuDome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04480A5F1CCB036A00174391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zhifuDomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzc.zhifuDomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zhifuDome.app/zhifuDome";
+			};
+			name = Debug;
+		};
+		04480A601CCB036A00174391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zhifuDomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzc.zhifuDomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zhifuDome.app/zhifuDome";
+			};
+			name = Release;
+		};
+		04480A621CCB036A00174391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zhifuDomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzc.zhifuDomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zhifuDome;
+			};
+			name = Debug;
+		};
+		04480A631CCB036A00174391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zhifuDomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzc.zhifuDomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zhifuDome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04480A291CCB036900174391 /* Build configuration list for PBXProject "zhifuDome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04480A591CCB036A00174391 /* Debug */,
+				04480A5A1CCB036A00174391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04480A5B1CCB036A00174391 /* Build configuration list for PBXNativeTarget "zhifuDome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04480A5C1CCB036A00174391 /* Debug */,
+				04480A5D1CCB036A00174391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04480A5E1CCB036A00174391 /* Build configuration list for PBXNativeTarget "zhifuDomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04480A5F1CCB036A00174391 /* Debug */,
+				04480A601CCB036A00174391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04480A611CCB036A00174391 /* Build configuration list for PBXNativeTarget "zhifuDomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04480A621CCB036A00174391 /* Debug */,
+				04480A631CCB036A00174391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04480A261CCB036900174391 /* Project object */;
+}
